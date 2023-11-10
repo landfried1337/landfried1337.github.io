@@ -17,10 +17,10 @@ body {
 }
 
 h1 {
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 32px;
     font-weight: bold;
 }
@@ -32,6 +32,25 @@ div {
 img {
     width: 100%;
     height: auto;
+}
+
+a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    color: black;
+    border: 1px solid #00f782;
+    background-color: #00f782;
+}
+
+a:hover {
+    color: #00b35f;
+    border: 1px solid #00b35f;
+    background-color: #141414;
+    cursor: pointer;
 }
 
 .session_messenger_id {
