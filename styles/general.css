@@ -13,48 +13,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #141414;
 }
 
 h1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
     font-size: 32px;
     font-weight: bold;
-}
-
-div {
-    padding: 10px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 1.5rem;
-    font-weight: bold;
-    color: black;
-    border: 1px solid #00f782;
-    background-color: #00f782;
-}
-
-a:hover {
-    color: #00b35f;
-    border: 1px solid #00b35f;
-    background-color: #141414;
-    cursor: pointer;
-}
-
-.session_messenger_id {
-    word-break: break-all;
 }
