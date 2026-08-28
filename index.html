@@ -9,10 +9,40 @@
     <title>Landfried</title>
 </head>
 
-<body>
-    <h1>
-        Nothing here yet
-    </h1>
+<body class="link_container">
+    <h1>Some Stuff</h1>
+
+    <div class="link_boxes">
+        <a href="pages/mail.html" class="link_box">
+            <div class="link_box_content_left">
+                <img src="resources/images/icons/mail.png" class="link_box_icon" alt="Icon">
+            </div>
+            <div class="link_box_content_right">
+                Mail
+            </div>
+        </a>
+        <a href="pages/list_swiss_passes.html" class="link_box">
+            <div class="link_box_content_left">
+                <img src="resources/images/icons/road.png" class="link_box_icon" alt="Icon">
+            </div>
+            <div class="link_box_content_right">
+                Schweizer Pässe
+            </div>
+        </a>
+        <a href="pages/numberplate.html" class="link_box">
+            <div class="link_box_content_left">
+                <img src="resources/images/icons/swiss_map.png" class="link_box_icon" alt="Icon">
+            </div>
+            <div class="link_box_content_right">
+                Töff Schild Generator
+            </div>
+        </a>
+    </div>
+
+    <div include-html="pages/footer.html" class="footer"></div>
+    <script src="js/includeHTML.js"></script>
+    <script>includeHTML();</script>
+
 </body>
 
 </html>
