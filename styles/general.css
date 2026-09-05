@@ -80,7 +80,7 @@ li {
     color: var(--dark-color);
     height: var(--link-box-height);
     border: 2px outset var(--bright-color);
-    border-radius: var(--link-box-height);
+    border-radius: calc(var(--link-box-height) / 4);
     padding-left: calc(var(--link-box-height) / 2);
     padding-right: calc(var(--link-box-height) / 2);
     background-color: var(--main-color);
